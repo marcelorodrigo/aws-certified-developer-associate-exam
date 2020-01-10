@@ -10,4 +10,5 @@ It validates your ability to:
 - Demonstrate proficiency in developing, deploying, and debugging cloud-based applications using AWS.
 
 ## Table of Contents
+- IAM: Identity Access and Management [iam.md]
 
