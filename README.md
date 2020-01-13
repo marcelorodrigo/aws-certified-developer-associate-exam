@@ -13,11 +13,24 @@ It validates your ability to:
 
 ## Network
 - [VPC: Virtual Private Cloud](vpc.md)
+- Route 53
+- ELB
 
 ### Security
 - [IAM: Identity Access and Management](iam.md)
 - [ACL: Network Access Control List](acl.md)
 
+## Services
+- EC2
+- S3
+- RDS
+- SNS
+- SQS
+- Elastic Beanstalk
+- DynamoDB
+- Redshift
+- CloudWatch
+- CloudFront
 
 #### Exam
 - Multiple choice, multiple answer
