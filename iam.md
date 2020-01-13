@@ -15,4 +15,6 @@ Amazon uses the AAA concept to provide Authentication, Authorization and Auditin
 	- Action (what the user can do)
 	- Resource (what recource the policy applies to)
 
-# Users, Groups and Roles
+## Users, Groups and Roles
+- AWS recommends attaching policies to groups and then assigning users to them.
+- Roles are entities with attaches policies. Resources can assume a role to obtain permissions from a policy
