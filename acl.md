@@ -1,3 +1,4 @@
+
 # Network Access Control List
 
 - Filters traffic between subnets by IP address an port
@@ -5,3 +6,5 @@
 - Subnets can share/use the same ACL
 - **Network ACL rules have precedence over security groups rules**
 - Network ACL rules filters only to egress/ingress traffic, but not for internal subnet traffic
+
+Note: to audit ingress and egress traffic, you can use [VPC](vpc.md) Flow Logs
