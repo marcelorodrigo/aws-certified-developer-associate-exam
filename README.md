@@ -17,3 +17,10 @@ It validates your ability to:
 ### Security
 - IAM: Identity Access and Management
 - [ACL: Network Access Control List](acl.md)
+
+
+#### Exam
+- Try to answer questions using the following process
+  - Understand what the question is asking
+  - Check question against your knowledge on AWS
+  - Pick the correct answer
