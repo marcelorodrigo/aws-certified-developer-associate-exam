@@ -11,6 +11,9 @@ It validates your ability to:
 
 ## Table of Contents
 
+## Network
+- [VPC: Virtual Private Cloud](vpc.md)
+
 ### Security
 - IAM: Identity Access and Management
-- [ACL: Network Access Control List](security-acl.md)
+- [ACL: Network Access Control List](acl.md)
