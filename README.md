@@ -32,6 +32,12 @@ It validates your ability to:
 - CloudWatch
 - CloudFront
 
+## White Papers
+- [AWS Security Best Practices](https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
+- [AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+- [Practicing Continuous Integration and Continuous Delivery on AWS Accelerating Software Delivery with
+DevOps](https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf)
+
 #### Exam
 - Multiple choice, multiple answer
 - 130 minutes
