@@ -39,6 +39,7 @@ It validates your ability to:
 DevOps](https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf)
 
 #### Exam
+- 65 questions
 - Multiple choice, multiple answer
 - 130 minutes
 - [AWS Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate-Exam_Guide_EN_1.4.pdf)
