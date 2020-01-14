@@ -31,6 +31,7 @@ It validates your ability to:
 - Redshift
 - CloudWatch
 - CloudFront
+- [Lambda](lambda.md)
 
 #### Exam
 - Multiple choice, multiple answer
