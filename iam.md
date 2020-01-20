@@ -19,3 +19,7 @@ Amazon uses the AAA concept to provide Authentication, Authorization and Auditin
 - When a user is created, he has no permissions by default (also known as *Default Deny*)
 - AWS recommends attaching policies to groups and then assigning users to them.
 - Roles are entities with attaches policies. Resources can assume a role to obtain permissions from a policy
+
+## Policy Evaluation Logic
+- Policies are denied by default (also in case if it is not informed on policy)
+- If there is two policies, one allowing and another one denying to same condition: a deny will be granted
