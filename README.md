@@ -22,7 +22,7 @@ It validates your ability to:
 
 ## Services
 - EC2
-- S3
+- [S3](s3.md)
 - RDS
 - SNS
 - SQS
