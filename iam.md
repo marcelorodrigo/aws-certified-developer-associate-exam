@@ -1,26 +1,13 @@
 # Identity and Access Manager
 Amazon uses the AAA concept to provide Authentication, Authorization and Auditing to resources inside your AWS account.
 
-## Authentication
-- Provided by various methods
-   - Password
-   - Access Keys
-
-*Note: Users only need a password set on their account if they are willing to use AWS Console.*
-
-##  Authorization
-- IAM Policy* is the root managing mechanism
-- Every policy is consisted of
-	- Effect: *Allow / Deny*
-	- Action (what the user can do)
-	- Resource (what recource the policy applies to)
-
-## Users, Groups and Roles
-- When a user is created, he has no permissions by default (also known as *Default Deny*)
-- AWS recommends attaching policies to groups and then assigning users to them.
-- Roles are entities with attaches policies. Resources can assume a role to obtain permissions from a policy
-- It's possible to assign a role for on AWS account to access resources in your account
-
-## Policy Evaluation Logic
-- Policies are denied by default (also in case if it is not informed on policy)
-- If there is two policies, one allowing and another one denying to same condition: a deny will be granted
+- Root account should not be used to operate AWS, as it not follows the least previlege principle
+- Policies (JSON) can be applied to groups or users
+- Roles for EC2 Instances or AWS Services
+- IAM Credential Reports and IAM Access Advisor can help you audit IAM usage
+- IAM Policy Simulator: you can test and troubleshoot IAM policies
+- Supported MFA mechanisms
+  - Virtual MFA (Google Authenticator, Authy, etc)
+  - Universal 2FA Security Key (like Yubikey defices)
+  - Hardware Key Fob MFA Device (like Gemalto devices)
+  - Hardware Key Fob MFA Device for AWS GovCloud (US) (like SurePassID devices)
