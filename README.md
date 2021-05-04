@@ -19,6 +19,7 @@ It validates your ability to:
 ### Security
 - [IAM: Identity Access and Management](iam.md)
 - [ACL: Network Access Control List](acl.md)
+- [SG: Security Groups](sg.md)
 
 ## Services
 - EC2
