@@ -22,7 +22,7 @@ It validates your ability to:
 - [SG: Security Groups](sg.md)
 
 ## Services
-- EC2
+- [EC2](ec2.md)
 - [S3](s3.md)
 - RDS
 - SNS
