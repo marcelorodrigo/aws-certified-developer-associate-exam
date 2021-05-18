@@ -16,14 +16,17 @@ It validates your ability to:
 - Route 53
 - ELB
 
-### Security
+## Security
 - [IAM: Identity Access and Management](iam.md)
 - [ACL: Network Access Control List](acl.md)
 - [SG: Security Groups](sg.md)
 
+## Storage
+- [EBS: Elastic Block Storage](ebs-storage.md)
+- [S3: Simple Storage Service](s3.md)
+
 ## Services
-- [EC2](ec2.md)
-- [S3](s3.md)
+- [EC2: Elastic Compute](ec2.md)
 - RDS
 - SNS
 - SQS
