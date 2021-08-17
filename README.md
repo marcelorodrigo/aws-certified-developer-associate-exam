@@ -13,12 +13,16 @@ It validates your ability to:
 
 ## Network
 - [VPC: Virtual Private Cloud](vpc.md)
+- Route 53
+
+## Load Balancers
+- General Overview about [ELB: Elastic Load Balancer](elb.md)
+- [CLB: Classic Load Balancer [Legacy v1]](clb.md)
 - [ALB: Application Load Balancer](alb.md)
-- [CLB: Classic Load Balancer](clb.md)
-- [ELB: Elastic Load Balancer](elb.md)
 - [NLB: Network Load Balancer](elb.md)
 - [ASG: Auto Scaling Groups](asg.md)
-- Route 53
+
+
 
 ## Security
 - [IAM: Identity Access and Management](iam.md)
