@@ -20,3 +20,19 @@
 - [Network Load Balancer](nlb.md)
   - v2 current generation - from 2017
   - TCP, TLS (secure TCP) & UDP
+
+## Internal vs External ELB
+- It is possible to setup an interna or external ELB
+- You can build an internal ELB, that will not be available to the internet.
+
+## Good things to know
+- It's recommended to create a Security Group that allows your EC2 machines to receive traffic only from the ELB
+- LB's can scale, but not instantly (you should contact AWS for a warm-up)
+- Troubleshooting
+  - 4xx errors are client induced errors
+  - 5xx errors are application induced errors
+  - Load Balancer Errors 503 means at capacity or no registered target (overloading)
+  - If the LB cannot connect to your app, check our ASG
+- Monitoring
+  - ELB access logs will log all requests
+  - CloudWatch Metrics gives you a broad view on statistics 
