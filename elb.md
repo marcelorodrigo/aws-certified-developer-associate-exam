@@ -42,7 +42,11 @@ ELB ensures that requests are distributed equally to your back-end instances reg
 - CLB: enabled by default on Console (disabled via API), can be enabled, you don't pay for AZ traffic.
 
 ## Connection Draining
-Time to complete pending requests while the instance is de-registered or unhealthy. They have different names for same functionality:
+Time to complete pending requests while the instance is de-registered or unhealthy.
+- Between 1 to 3600 seconds (default is 300)
+- Can be disabled (set to 0)
+
+They have different names for same functionality:
 - CLB: Connection Training
 - Target Group: Deregistration Deylay (for ALB & NLB)
 
