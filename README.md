@@ -19,7 +19,7 @@ It validates your ability to:
 - General Overview about [ELB: Elastic Load Balancer](elb.md)
 - [CLB: Classic Load Balancer [Legacy v1]](clb.md)
 - [ALB: Application Load Balancer](alb.md)
-- [NLB: Network Load Balancer](elb.md)
+- [NLB: Network Load Balancer](nlb.md)
 - [ASG: Auto Scaling Groups](asg.md)
 
 
