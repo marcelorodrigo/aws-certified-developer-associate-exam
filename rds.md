@@ -48,3 +48,17 @@ Automatically expands storage if:
   - SYNC Replication
   - One DNS name to automatically connect to the database
   - Provides failover in case of AZ loss, network, instance or storage failure
+
+## Encryption
+- At rest encryption
+  - Supports encryption with AWS KMS - AES-256 Encryption
+  - It needs to be defined at lunch time
+  - **If master is not encrypted, replicas cannot be encrypted**
+  - Transparent Data Encryption (TDE) available for Oracle and SQL Server
+
+- In-flight Encryption
+  - SSL certificates to encrypt data in transit
+  - SSL options with trust certificate when connecting to the database
+
+- If database is not encrypted, snapshots are not encrypted
+- You can copy an uncrypted snapshot into an encrypted one
