@@ -22,8 +22,6 @@ It validates your ability to:
 - [NLB: Network Load Balancer](nlb.md)
 - [ASG: Auto Scaling Groups](asg.md)
 
-
-
 ## Security
 - [IAM: Identity Access and Management](iam.md)
 - [ACL: Network Access Control List](acl.md)
@@ -35,7 +33,7 @@ It validates your ability to:
 
 ## Services
 - [EC2: Elastic Compute](ec2.md)
-- RDS
+- [RDS - Relational Database Service](rds.md)
 - SNS
 - SQS
 - Elastic Beanstalk
