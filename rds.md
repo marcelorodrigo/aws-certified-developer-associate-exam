@@ -36,3 +36,15 @@ Automatically expands storage if:
 - Free storage is less than 10%
 - Low-storage lasts at least 5 minutes
 - 6 hours have passed since last modification
+
+## Read Replica vs Multi AZ
+- Read replicas helps you to speed up reading queries
+  - Up to 5 read replicas
+  - Within AZ, Cross AZ or Cross Region
+  - Replication is always ASYNC, making read eventually consistent
+  - Replicas can be promoted to their own DB
+  - **No network costs for AWS Read Replicas inside same region** (no costs for different AZ on same region)
+- Multi AZ is meant for Disaster Recovery situations
+  - SYNC Replication
+  - One DNS name to automatically connect to the database
+  - Provides failover in case of AZ loss, network, instance or storage failure
