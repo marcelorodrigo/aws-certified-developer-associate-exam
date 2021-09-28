@@ -13,7 +13,7 @@ It validates your ability to:
 
 ## Network
 - [VPC: Virtual Private Cloud](vpc.md)
-- Route 53
+- [Route 53](route-53.md)
 
 ## Load Balancers
 - General Overview about [ELB: Elastic Load Balancer](elb.md)
