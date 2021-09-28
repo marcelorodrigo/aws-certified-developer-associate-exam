@@ -31,7 +31,8 @@ You can have public (internet domains - example.com) and private (internal domai
 - Redirects to resource with least latency to client
 - Latency is based on traffic between client and AWS Regions
 ### Failover
-- 
+- Based on Health Checks, you can create failover records that automatically will be used in case of the primary record is not available or down.
 ### Geolocation
+- 
 ### Geoproximity
 ### Multi Value
