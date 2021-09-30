@@ -33,6 +33,13 @@ You can have public (internet domains - example.com) and private (internal domai
 ### Failover
 - Based on Health Checks, you can create failover records that automatically will be used in case of the primary record is not available or down.
 ### Geolocation
-- 
+- You can redirect your users to records based on gelocation in continents or countries
+- A default record can be used when there is no specific record for user region
+- Route 53 always uses the closest record available
 ### Geoproximity
+- Route traffic based on location of users AND resources
+- You can shift traffic to a region making their bias level higher, and vice versa
 ### Multi Value
+- You can have sort of local (client) load balancing, when you provide up to 8 resources for a record
+- Client chooses which record wants to use
+- You can associate health checks with resources, unhealthy resources are automatically removed from DNS query responses
