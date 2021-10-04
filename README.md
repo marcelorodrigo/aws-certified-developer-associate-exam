@@ -43,6 +43,9 @@ It validates your ability to:
 - CloudFront
 - [Lambda](lambda.md)
 
+## General
+- [CLI: Command Line Interface](cli.md)
+
 ## White Papers
 - [AWS Security Best Practices](https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
 - [AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
