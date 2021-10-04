@@ -17,4 +17,6 @@ Amazon uses the AAA concept to provide Authentication, Authorization and Auditin
 ## IAM Security Tools
 - IAM Credential Reports (account-level): is a report that list all users and status on your account.
 - IAM Access Advisor (user-level): show services permissions granted to a user, and when was the last access.
+### Testing Policy Tools
 - IAM Policy Simulator: you can test and troubleshoot IAM policies
+- AWS CLI: using `--dry-run` option you can check if the current credentials allow you to run the intended action
