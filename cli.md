@@ -8,3 +8,7 @@
 - By default, commands run using the default profile
 - You can specify a profile in any command appending `--profile my-profile-name`
 
+## MFA with CLI
+You must create a temporary session:
+- `aws sts get-session-token --serial-number arn-of-mfa-device --token-code token --duration--seconds 7200`
+- You're going to receive temporary credentials as response
