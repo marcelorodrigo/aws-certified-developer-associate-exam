@@ -5,9 +5,8 @@
 - Node.js (Javascript)
 - Python
 - Java
-- C# (.NET Core)
+- C# (.NET Core / Powershell)
 - Go
-- C# (Powershell)
 - Ruby
 - Custom Runtime API (Community supported, eg. Rust)
 - Lambda Container Image
