@@ -20,4 +20,7 @@
 - CLI, SDK, Api Gateway, Application Load Balancer
 - Error handling must happen at client side (retries, exponential backoff, etc)
 ## Asynchronous Invocations
-
+- S3, SNS, CloudWatch Events, etc
+- Events are placed in a Event Queue (that contains DLQ)
+- 2 retries for events that failed (one after 1 minute, another one 2 minutes later)
+- 
