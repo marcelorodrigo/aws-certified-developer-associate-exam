@@ -30,3 +30,15 @@
 - Lambda then will create an ENI (Elastic Network Interface) in your subnet, using AWSLambdaVPCAccessExecutionRole role.
 - Lambda inside VPC does not have internet access (even though your EC2 machines have), you will not get access or either a public IP.
 - To enable access to internet from your lambda, you need to use a NAT Gateway/Instance.
+
+## Performance
+- From 128MB to 10GB of RAM
+- The more RAM you allocate, the more CPU you get
+- At 1792Mb you get a full CPU
+- So if you need multithreading in your lambda, more than 1792Mb is necessary
+- Timeout default is 3 seconds, maximum of 900 seconds (15 minutes)
+
+## Concurrency
+- Up to 1000 concourrent executions
+- It's a good practice to set concurrency limits to your lambda
+- Provisioned Concurrency can be used to avoid cold start waiting times 
