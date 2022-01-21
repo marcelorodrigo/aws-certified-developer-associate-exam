@@ -23,4 +23,10 @@
 - S3, SNS, CloudWatch Events, etc
 - Events are placed in a Event Queue (that contains DLQ)
 - 2 retries for events that failed (one after 1 minute, another one 2 minutes later)
-- 
+
+## Lambda inside your VPC
+- By default any lambda runs on Amazon VPC
+- To be able to access resources (such as RDS, ElastiCache, etc) you must define VPC, subnets and security groups for a lambda
+- Lambda then will create an ENI (Elastic Network Interface) in your subnet, using AWSLambdaVPCAccessExecutionRole role.
+- Lambda inside VPC does not have internet access (even though your EC2 machines have), you will not get access or either a public IP.
+- To enable access to internet from your lambda, you need to use a NAT Gateway/Instance.
