@@ -42,3 +42,17 @@
 - Up to 1000 concourrent executions
 - It's a good practice to set concurrency limits to your lambda
 - Provisioned Concurrency can be used to avoid cold start waiting times 
+
+## Limits
+- Lambda limits are per region
+- Execution
+  - Memory from 128MB ~ 10GB
+  - Timeout: 900 seconds (15 minutes)
+  - Environment Variables 4KB
+  - "/tmp" as 512MB
+  - 100 concurrent executions as default (can be increased)
+- Deployment
+  - Lambda deploy size as 50MB (.zip)
+  - If uncompressed as 250Mb
+  - Can use "/tmp" to load more files as startup
+  - Environment Variables 4KB
