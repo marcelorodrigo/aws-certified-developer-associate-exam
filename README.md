@@ -37,7 +37,7 @@ It validates your ability to:
 - SNS
 - SQS
 - Elastic Beanstalk
-- DynamoDB
+- [DynamoDB](dynamodb.md)
 - Redshift
 - CloudWatch
 - CloudFront
