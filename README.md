@@ -33,7 +33,7 @@ It validates your ability to:
 
 ## Services
 - [EC2: Elastic Compute](ec2.md)
-- [RDS - Relational Database Service](rds.md)
+- [RDS: Relational Database Service](rds.md)
 - SNS
 - SQS
 - Elastic Beanstalk
