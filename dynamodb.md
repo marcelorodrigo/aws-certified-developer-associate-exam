@@ -38,7 +38,7 @@ You can switch between the modes every 24 hours:
 - BatchWriteItem: Up to 25 PutItem's amd/or DeleteItem's in one call
 - BatchGetItem: up to 1_000 items can be retrieved in one call
 
-## Optmistic Locking
+## Optimistic Locking
 - Uses a version number to guarantee that more than one client is not updating/deleting the same record (Conditional writes)
 - Each item has an attribute which works as "version number"
 
