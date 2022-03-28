@@ -31,17 +31,20 @@ It validates your ability to:
 - [EBS: Elastic Block Storage](ebs-storage.md)
 - [S3: Simple Storage Service](s3.md)
 
+## Serverless
+- [API Gateway](api.md)
+- [DynamoDB](dynamodb.md)
+- [Lambda](lambda.md)
+
 ## Services
 - [EC2: Elastic Compute](ec2.md)
 - [RDS: Relational Database Service](rds.md)
 - SNS
 - SQS
 - Elastic Beanstalk
-- [DynamoDB](dynamodb.md)
 - Redshift
 - CloudWatch
 - CloudFront
-- [Lambda](lambda.md)
 
 ## General
 - [CLI: Command Line Interface](cli.md)
